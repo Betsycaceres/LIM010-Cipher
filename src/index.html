@@ -4,11 +4,14 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Signika+Negative&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Signika+Negative&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>OBSEQUIANDO.COM</header>
-    <main></main>
-    <br> 
+    <main>
+    <section id="primera pantalla">
+        <img  id="cajaderegalo" src = "image/regalo.png"  alt = "regalo"/>
     <form>
      <label for="passwordLab">Ingresa contraseña</label>
      <br>
@@ -17,10 +20,38 @@
      placeholder="Password"
      name="passwordLab"
      required
-     />
+     /> <br> <br>
+     <div id="incorrecto">
+     </div>
+     <button id='botonIngresar'type="button">INGRESAR</button>
     </form>
-    <button type="submit">INGRESAR</button>
-    <footer></footer>
+    </section>
+    
+    <section id="segunda pantalla" class="hide">
+     <img id="iconoad" src = "image/admiracion.jpg"  alt = "admiracion"/>
+     <h1>"Ya utilizaste todos tus intentos , en éste momento no podrás ingresar"</h1>
+
+    </section>
+
+    <section id="tercera pantalla" class="hide">
+    <h2>INGRESAR TEXTO</h2>
+    <textarea id='texto' name="ingresa texto" placeholder="Ingresa aquí tu texto..."rows="4" cols="45"></textarea>
+    <h3>Elige una opción:</h3>
+    <button id ="boton cifrar" type="button">CIFRAR</button>
+    <button  id ="boton descifrar"type="button">DESCIFRAR</button>
+    <h4>Selecciona un número:</h4>
+    <input id='desplazamiento'type="number" name="quantity" min="1" max="26">
+
+    <h5>RESPUESTA</h5>
+    <textarea id="texto convertido" name="ingresa texto" placeholder="Aquí se muestra tu resultado.." rows="4" cols="45"></textarea><br>
+    <button id= "limpia" type="button">LIMPIAR</button>
+
+    </section>
+    </main>
+    
+    <footer>
+        <img id="cajaregalo" src = "image/regalo.png"  alt = "regalo"/>
+        By Betsy Cáceres</footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
