@@ -6,12 +6,16 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Signika+Negative&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Signika+Negative&display=swap" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   </head>
   <body>
     <header>OBSEQUIANDO.COM</header>
     <main>
-    <section id="primera pantalla">
+    <section class="form-area" id="primera pantalla">
+      
         <img  id="cajaderegalo" src = "image/regalo.png"  alt = "regalo"/>
+        <i class="em em-closed_lock_with_key" aria.hiden = "true"  type="cerradura"></i>
+
     <form>
      <label for="passwordLab">Ingresa contraseña</label>
      <br>
@@ -23,24 +27,25 @@
      /> <br> <br>
      <div id="incorrecto">
      </div>
-     <button id='botonIngresar'type="button">INGRESAR</button>
+     <button id="botonIngresar" type="button" class="ingresa">INGRESAR </button>
     </form>
     </section>
     
     <section id="segunda pantalla" class="hide">
-     <img id="iconoad" src = "image/admiracion.jpg"  alt = "admiracion"/>
-     <h1>"Ya utilizaste todos tus intentos , en éste momento no podrás ingresar"</h1>
+     <img id="iconoad" src = "image/admiracion.png"  alt = "admiracion"/>
+     <h1> <pre> "Ya utilizaste todos tus intentos,en éste 
+         momento no podrás ingresar"    </pre> </h1>
 
     </section>
 
     <section id="tercera pantalla" class="hide">
     <h2>INGRESAR TEXTO</h2>
-    <textarea id='texto' name="ingresa texto" placeholder="Ingresa aquí tu texto..."rows="4" cols="45"></textarea>
+    <textarea id="texto" name="ingresa texto" placeholder="Ingresa aquí tu texto..." rows="4" cols="45"></textarea>
     <h3>Elige una opción:</h3>
     <button id ="boton cifrar" type="button">CIFRAR</button>
-    <button  id ="boton descifrar"type="button">DESCIFRAR</button>
+    <button  id ="boton descifrar" type="button" >DESCIFRAR</button>
     <h4>Selecciona un número:</h4>
-    <input id='desplazamiento'type="number" name="quantity" min="1" max="26">
+    <input id="desplazamiento" type="number" name="quantity" min="1" max="33">
 
     <h5>RESPUESTA</h5>
     <textarea id="texto convertido" name="ingresa texto" placeholder="Aquí se muestra tu resultado.." rows="4" cols="45"></textarea><br>
