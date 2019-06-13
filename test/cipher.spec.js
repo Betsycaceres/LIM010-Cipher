@@ -1,3 +1,5 @@
+
+
 describe('cipher', () => {
 
   it('debería ser un objeto', () => {
@@ -19,7 +21,9 @@ describe('cipher', () => {
     it('debería retornar " " para " " con offset 33',()=>{
       assert.equal(cipher.encode(33," ")," ");
     });
+
     });
+    
 
   describe('cipher.decode', () => {
 
@@ -37,6 +41,7 @@ describe('cipher', () => {
     it('debería retornar " "para " " con offset 33',()=>{
       assert.equal(cipher.decode(33," ")," ");
   });
+
 });
 
 });
