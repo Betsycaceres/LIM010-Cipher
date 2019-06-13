@@ -3,7 +3,8 @@ header{
     font-family: 'Luckiest Guy', cursive;
     margin-top: 50px;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 40px;
+    color:#4c4a62;
 }
 body{
     margin: 0;
@@ -14,6 +15,8 @@ body{
     background-size: cover;
     font-family:  Tahoma, sans-serif;
 }
+
+
 .form-area{
     position: absolute;
     top : 52%;
@@ -23,55 +26,64 @@ body{
     height: 30px;
     box-sizing: border-box;
     background: rgba(233, 226, 229, 0.342);
-    padding: 
-    14%;
+    padding: 14%;
 }
+
 .form-area img{
-    top:100px;
-    left:35px;
+    top:90px;
+    left:20px;
     position: absolute;
-    width: 110px;
-    height: 98px;
+    width: 130px;
+    height: 120px;
   }
+
 .form-area label{
     top:100px;
-    padding: 0px 6px;
+    padding: 12px 15px;
     position: absolute;
-    font-weight: 700;
-    right: 7%;
+    font-weight: 600;
+   
+    left: 48%;
+    
     }
 .form-area i[type=cerradura]{
     position: absolute;
     width: 0.7%;
-    left:342px;
-    top:135px;
+    left:330px;
+    top:140px;
     padding:8px 7px;
 }
 .form-area input[type=password]{
-    top:138px;
+    top:158px;
     padding: 4px 2px;
     position: absolute;
     border:none;
     background-color: transparent;
     border-bottom: 2px solid #FCFBF8
 }
-  
-.form-area button [type=button]{
-    height: 60%;
-    padding: 15px 50px;
-    top:110px;
-    left:600px;
-    text-align: center;
-}
+
 .form-area div{
     top:185px;
-    padding: 0px 6px;
+    padding: 0px px;
     font-family:  monospace;
     position: absolute;
 }
+.form-area button{
+    padding: 8px 12px;
+    font-size: 12px;
+}
+.flex-container {
+    display: flex;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+    right:140px;
+    border-radius: 4px;
+  }
 
 h2,h5{
     font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
 }
 
 h1,h5
@@ -79,10 +91,12 @@ h1,h5
     margin-top: 5px;
     margin-bottom: 2px;
     font-weight: 700;
+    font-size: 20px;
 }
 h2,h3,h4{
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 20px;
 }
 
 input{
@@ -117,9 +131,10 @@ input{
 }
 #iconoad
 {
-    width: 20% ;
+    width: 14% ;
     height: auto ;
 }
+
 footer{
     font-family: 'Times New Roman', Times, serif;
     margin-left: 1000px;
