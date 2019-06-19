@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es" xml:lang="es">
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
@@ -9,58 +9,46 @@
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   </head>
   <body>
-    <header>OBSEQUIANDO.COM</header>
+    <header> <h1>OBSEQUIANDO.COM</h1></header>
     <main>
-    <section class="form-area" id="primera pantalla">
-      
+      <div class="form-area" id="primera_pantalla">
         <img  id="cajaderegalo" src = "image/regalo.png"  alt = "regalo"/>
         <i class="em em-closed_lock_with_key" aria.hiden = "true"  type="cerradura"></i>
-
     <form>
-     <label for="passwordLab">Ingresa contraseña</label>
-     <br>
-     <input type="password"
-     id="passwordLab"
-     placeholder="Password"
-     name="passwordLab"
-     required
+      <label for="passwordLab">Ingresa contraseña</label>
+      <br>
+      <input type="password"
+        id="passwordLab"
+        placeholder="Password"
+        name="passwordLab"
+        required
      /> <br> <br>
-     <div id="incorrecto">
+      <div id="incorrecto"></div>
+      <div class="flex-container">
+        <button id="botonIngresar" type="button" class="ingresa">INGRESAR </button>
       </div>
-     <div class="flex-container">
-      <button id="botonIngresar" type="button" class="ingresa">INGRESAR </button>
+      </form>
       </div>
-     
-    </form>
-    </section>
-    
-    <section id="segunda pantalla" class="hide">
-     <img id="iconoad" src = "image/admiracion.png"  alt = "admiracion"/>
-     <h1> <pre> "Ya utilizaste todos tus intentos,en éste 
-         momento no podrás ingresar"    </pre> </h1>
-
-    </section>
-
-    <section id="tercera pantalla" class="hide">
-    <h2>INGRESAR TEXTO</h2>
-    <textarea id="texto" name="ingresa texto" placeholder="Ingresa aquí tu texto..." rows="4" cols="45"></textarea>
-    <h3>Elige una opción:</h3>
-    <button id ="boton cifrar" type="button">CIFRAR</button>
-    <button  id ="boton descifrar" type="button" >DESCIFRAR</button>
-    <h4>Selecciona un número:</h4>
-    <input id="desplazamiento" type="number" name="quantity" min="1" max="33">
-
-    <h5>RESPUESTA</h5>
-    <textarea id="texto convertido" name="ingresa texto" placeholder="Aquí se muestra tu resultado.." rows="4" cols="45"></textarea><br>
-    <button id= "limpia" type="button">LIMPIAR</button>
-
-    </section>
-    </main>
-    
-    <footer>
-        <img id="cajaregalo" src = "image/regalo.png"  alt = "regalo"/>
-        By Betsy Cáceres</footer>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+      <div id="segunda_pantalla" class="hide">
+        <img id="iconoad" src = "image/admiracion.png"  alt = "admiracion"/>
+        <h1>"Ya utilizaste todos tus intentos,en éste 
+         momento no podrás ingresar"</h1>
+      </div>
+      <div id="tercera_pantalla" class="hide">
+        <h2>INGRESAR TEXTO</h2>
+        <textarea id="texto" name="ingresa_texto" placeholder="Ingresa aquí tu texto..." rows="4" cols="45"></textarea>
+        <h3>Elige una opción:</h3>
+        <button id ="boton_cifrar" type="button">CIFRAR</button>
+        <button  id ="boton_descifrar" type="button" >DESCIFRAR</button>
+        <h4>Selecciona un número:</h4>
+        <input id="desplazamiento" type="number" name="quantity" min="1" max="33">
+        <h5>RESPUESTA</h5>
+        <textarea id="texto_convertido" name="ingresa_texto" placeholder="Aquí se muestra tu resultado.." rows="4" cols="45"></textarea><br>
+        <button id= "limpia" type="button">LIMPIAR</button>
+      </div>
+      </main>
+    <footer><img id="cajaregalo" src = "image/regalo.png"  alt ="regalo"/><p>By Betsy Cáceres</p></footer>
+      <script src="cipher.js"></script>
+      <script src="index.js"></script>
   </body>
 </html>

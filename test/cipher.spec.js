@@ -40,8 +40,8 @@ describe('cipher', () => {
     
     it('debería retornar " "para " " con offset 33',()=>{
       assert.equal(cipher.decode(33," ")," ");
-  });
+    });
 
-});
+    });
 
 });
