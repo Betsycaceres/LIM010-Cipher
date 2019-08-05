@@ -8,7 +8,7 @@ let intentos = 0;
 botonIngresar.addEventListener('click',()=>{
         if (password.value =="LABORATORIA"){
             document.getElementById('primera_pantalla').classList.add('hide');
-            document.getElementById('tercera _pantalla').classList.remove('hide');
+            document.getElementById('tercera_pantalla').classList.remove('hide');
         }else{
 
             if(password != "LABORATORIA" && intentos ==2){

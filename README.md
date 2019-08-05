@@ -19,7 +19,9 @@
 ## Resumen:
 
 La parte más difìcil de  tener  una lista de regalos para un baby shower  es que la mami de la dulce espera  y otras personas no se enteren. He allì la importancia de tener éste tema en secreto. 
+Para acceder se proporcionan el siguiente dato:
 
+CONTRASEÑA: LABORATORIA
 
 ## ¿Quiénes son los usuarios?
 

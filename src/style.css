@@ -3,7 +3,7 @@ header{
     font-family: 'Luckiest Guy', cursive;
     margin-top: 50px;
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 100px;
     color:#4c4a62;
 }
 body{
@@ -85,7 +85,14 @@ h2,h5{
     font-size: 20px;
 }
 
-h1,h5
+h1  {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+h5
 {
     margin-top: 5px;
     margin-bottom: 2px;
@@ -119,7 +126,8 @@ input{
     margin-top: 4px;
     margin-bottom: 25px;
   }
-  .hide{
+  
+.hide{
       display:none;
   }
  
